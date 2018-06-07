@@ -10,12 +10,19 @@ package co734711_midterm_mads3464;
  * @author macstudent
  */
 public class CO734711_MidTerm_MADS3464 {
-
+    
+public static String reverseString(String str)
+{
+    StringBuilder strr = new StringBuilder (str);
+    strr.reverse();
+    return strr.toString();
+}
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println(CO734711_MidTerm_MADS3464.reverseString("paramjit"));
+       
     }
     
 }
