@@ -24,6 +24,7 @@ public static String reverseString(String str)
     public static void main(String[] args) {
        // System.out.println(CO734711_MidTerm_MADS3464.reverseString("paramjit"));
         System.out.println("" + BinaryDecimal.binaryToDecimal("1000"));
+        System.out.println(MaxCharacter.mostFrequent("aaaabbbbccc"));
       
        
        
