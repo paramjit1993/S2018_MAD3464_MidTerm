@@ -17,12 +17,18 @@ public static String reverseString(String str)
     strr.reverse();
     return strr.toString();
 }
+ 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(CO734711_MidTerm_MADS3464.reverseString("paramjit"));
+       // System.out.println(CO734711_MidTerm_MADS3464.reverseString("paramjit"));
+        System.out.println("" + BinaryDecimal.binaryToDecimal("1000"));
+      
+       
+       
        
     }
+    
     
 }
